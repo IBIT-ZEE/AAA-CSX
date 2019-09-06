@@ -4,9 +4,13 @@ using System;
 using System.IO;
 using System.Windows.Forms;
 
+
 var x = 1;
 
-System.Console.Write( f1() );
+
+Print( f1() );
+Print( Enumerable.Range(1,100).Sum() );
+
 
 // Form f = new System.Windows.Forms.Form();
 // f.ShowDialog();
@@ -15,7 +19,9 @@ System.Console.Write( f1() );
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
-string f1() { return 111.ToString(); }
+DateTime f1() { return System.DateTime.Now; }
+
+void Print( Object x ) { System.Console.Write( x ); }
 
 
 
