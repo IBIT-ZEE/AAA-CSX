@@ -16,7 +16,7 @@ var xProcess =
         {
         // FileName = "timedate.cpl",
         FileName = "xx.exe",
-        // UserName = "zee",
+        // UserName = "xxx",
         // Password = xPass,
         Domain = ".",
         // Arguments = "-optionsfile=x.vnc",
@@ -29,6 +29,6 @@ var xProcess =
         // RedirectStandardOutput = true
         };
 
-// Process.Start( "control.exe", "timedate.cpl", "zee", xPass, "." );
+// Process.Start( "control.exe", "timedate.cpl", "xxx", xPass, "." );
 Process.Start( xProcess );
 
